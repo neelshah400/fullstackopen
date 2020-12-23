@@ -11,7 +11,7 @@ const Button = ({ handleClick, text }) => (
 
 const App = () => {
 
-  const [ counter, setCounter ] = useState(0)
+  const [counter, setCounter] = useState(0)
 
   const increaseByOne = () => setCounter(counter + 1)
   const setToZero = () => setCounter(0)
